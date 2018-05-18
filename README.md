@@ -20,7 +20,7 @@ Great, please raise an issue or create a PR.
 
 ## Project Structure
 
-the lessons themselves are in the form of source code. Each `run.js` if piped into a file should make for an excellent test of understanding simply comment out the answer lines and send the output to someone want to wrap their head around RegEx. 
+The lessons themselves are in the form of source code. Each `run.js` if piped into a file should make for an excellent test of understanding simply comment out the answer lines and send the output to someone want to wrap their head around RegEx. 
 
 The source code and examples should build on each other while still remaining focused on the task at hand. The comments before each example describe what should happen. If a test is supposed to fail there will be a note in the source code comments and the example description will say why. 
 

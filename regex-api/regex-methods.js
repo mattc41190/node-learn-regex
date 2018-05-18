@@ -1,18 +1,22 @@
 // Examples of Types of Regex Testers in JS
 
+// String Prototype Methods
+
 const _match = () => {
   console.log('String - Match')
   console.log("'abc'.match(/abc/)")
   console.log('abc'.match(/abc/).length > 0)
 }
-`
-`const _search = () => {
+
+const _search = () => {
   console.log('String - Search')
   console.log("'ZZZabcZZZ'.search(/abc/)")
   console.log('ZZZabcZZZ'.search(/abc/) === 3)
 }
 
-const _testLit = () => {
+// RegEx Prototype Methods
+
+const _testLiteral = () => {
   console.log('RegExp - TestLit')
   console.log("/abc/.test('abc')")
   console.log(/abc/.test('abc'))
@@ -33,8 +37,8 @@ const _exec = () => {
 // String Regular Expression Checkers
 _match()
 _search()
-_testLit()
 
 // Regular Expression Instance Methods
+_testLiteral() // Included because of it's use in the tutorial
 _test()
 _exec()

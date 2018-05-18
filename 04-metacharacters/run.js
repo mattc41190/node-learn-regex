@@ -97,10 +97,24 @@ console.log("/\\n/.test('\\n')")
 console.log(/\n/.test('\n'))
 line()
 
-// Character: "\n"
+// Character: "\t"
 
 // Test PASSES when tab / \t is present
 console.log('Example 15')
 console.log("/\\t/.test('\\t')")
 console.log(/\t/.test('\t'))
+line()
+
+// Character: "\b"
+
+// Test PASSES when there is a word break
+console.log('Example 16')
+console.log("/woo\\b/('woo hoo')")
+console.log(/woo\b/.test('woo hoo'))
+line()
+
+// Test FAILS when there is no word break
+console.log('Example 17')
+console.log("/woo\\b/('woohoo')")
+console.log(/woo\b/.test('woohoo')) // false
 line()

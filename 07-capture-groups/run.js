@@ -1,0 +1,3 @@
+const line = (() => console.log('----------'))
+
+// Test PASSES when ...

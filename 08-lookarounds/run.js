@@ -29,3 +29,4 @@ console.log(/cool(?!\ cat)/.test('cool cat')) // false
 line()
 
 // Lookbehinds (Not Supported -- Mid 2018)
+console.log('Please Note: Lookbehinds not supported in Node 2017/2018.')

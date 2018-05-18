@@ -20,8 +20,8 @@ Great, please raise an issue or create a PR.
 
 ## Project Structure
 
-The lessons themselves are in the form of source code. Each `run.js` if piped into a file should make for an excellent test of understanding simply comment out the answer lines and send the output to someone want to wrap their head around RegEx. 
+The lessons themselves are in the form of source code. Each `run.js` if piped into a file should make for an excellent test of understanding simply comment out the answer lines and send the output to someone wanting to wrap their head around RegEx. 
 
 The source code and examples should build on each other while still remaining focused on the task at hand. The comments before each example describe what should happen. If a test is supposed to fail there will be a note in the source code comments and the example description will say why. 
 
-To see some simple use cases for what you will learn here take a look at the common examples folder. Please note, that while these examples cover a great many permutations of the entities they claim to cover they are not perfect (the intent is to wrap your head around how RegEx works and how you could go about making the pattern more and more robust). 
+To see some simple use cases for what you will learn here take a look at the common examples folder. Please note, that while these examples cover a great many permutations of the entities they claim to cover they are not perfect. the intent is to wrap your head around how RegEx works and how you could go about making the pattern more and more robust, not to prove how well I can make patterns. 
